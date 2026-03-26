@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Phil Hurst", rating: 5, text: "Derek and his team did an excellent job with our back garden. We were very impressed with how thorough he was in the beginning and talked us through the whole project and what would be expected. We had some idea of what we wanted, and Derek …  +3 ", date: "4 years ago" },
+    { name: "Peter Waller", rating: 5, text: "We are absolutely delighted with the work that Derek and his guys did for us which included the removal of a hawthorn hedge and replacement fencing.  Top quality materials (fence posts guaranteed for 25 years) professional, friendly, …  ", date: "9 years ago" },
+    { name: "Adam Gillmore", rating: 5, text: "Derek and his team completed a large project for us which involved extending and replacing a patio, adding a new second patio, creating a millboard decking area and renovating a tired looking garage. …  +2 ", date: "8 years ago" },
+    { name: "Ian L. George", rating: 5, text: "In commissioning the services of 'Cathedral Landscapes', we were hopeful that our Garden would be transformed into a central and immeasurably appealing feature of our Home. …  +8 ", date: "3 years ago" },
+    { name: "George Matthews", rating: 5, text: "Derek and Paul delivered a first class service. Constructive and positive advice through out the delivery of our garden project. Excellent communication and professional, friendly manner easy to get on with. Really pleased with the outcome and can hi", date: "2 years ago" },
+    { name: "Simon Westerman", rating: 5, text: "Cathedral Landscapes’ understanding of their client’s wishes, and ability to deliver is quite phenomenal. Their attention to detail makes such a difference, and their patient explanations to complete amateurs at garden design makes them …  ", date: "2 years ago" },
+    { name: "Tinanewport52@G.mail Tina-newport", rating: 5, text: "Thank you  to Derek, Paul and his team for a great job completing our patio.  With workmanship to a high standard and we are pleased to recommend  cathedral  landscapes for future projects. Tina and John  ", date: "4 years ago" },
+    { name: "Dee Patel", rating: 5, text: "My garden was on a complete mess, I'd had about 5 different quotes.  2 of which never got back to me, the third one had no idea what he was talking about.  That then left 2, Cathedral Landscape's (Derick) was the only one that seemed to …  +8 ", date: "8 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
